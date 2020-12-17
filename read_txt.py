@@ -25,8 +25,8 @@ def txt_to_dic(filename, col_name):
     return raw_data
 
 names = ['press', 'humidity', 'temperature', 'director', 'speed']
-file = [r'E:\\风电\\沂山_桃林天融测风塔数据\\沂山天融\\沂山数值预报\\118.7106_36.2031_30_20190101.txt',
-       r'E:\\风电\\沂山_桃林天融测风塔数据\\沂山天融\\沂山数值预报\\118.7106_36.2031_30_20190102.txt' ]
+file = [r'E:\\118.7106_36.2031_30_20190101.txt',
+       r'E:\\118.7106_36.2031_30_20190102.txt' ]
 
 # data = txt_to_dic(file, names)
 # pprint.pprint(data)
